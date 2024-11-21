@@ -2,7 +2,7 @@
 
 first 1!
 
-{% capture url_path %}{{site.url}},,,{{page.url}}{% endcapture %}
+{{site.url}},,,{{page.url}}
 
 {% assign pages = site.pages %}
 {% for page in pages %}
